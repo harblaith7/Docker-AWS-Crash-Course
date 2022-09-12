@@ -7,9 +7,9 @@ app.get("/", (req, res) => {
 });
 
 app.get("/me", (req, res) => {
-  res.send("Hi I am Laith");
+  res.send("Hi I am Rajat Singh");
 });
 
 app.listen(5000, () => {
-  console.log("listening");
+  console.log("listening the port 5000");
 });
